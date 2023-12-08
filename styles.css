@@ -1,0 +1,78 @@
+/* Global */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(0, 0%, 95%);
+  font-size: 15px;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+/* Text */
+h1 {
+  color: hsl(0, 0%, 95%);
+  font-family: "Big Shoulders Display", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  margin: 30px 0;
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Lexend Deca", sans-serif;
+  letter-spacing: 1px;
+}
+
+/* IDs */
+#sedans-more {
+  color: hsl(31, 77%, 52%);
+}
+
+#suvs-more {
+  color: hsl(184, 100%, 22%);
+}
+
+#luxury-more {
+  color: hsl(179, 100%, 13%);
+}
+
+/* Boxes */
+.container {
+  display: flex;
+  max-width: 900px;
+}
+
+.item-1 {
+  background-color: hsl(31, 77%, 52%);
+  padding: 50px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.item-2 {
+  background-color: hsl(184, 100%, 22%);
+  padding: 50px;
+}
+
+.item-3 {
+  background-color: hsl(179, 100%, 13%);
+  padding: 50px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+/* Button */
+.learn-more {
+  background-color: hsl(0, 0%, 95%);
+  display: inline-block;
+  padding: 15px 30px;
+  margin: 80px 0 0 0;
+  border-radius: 30px;
+}
