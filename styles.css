@@ -26,6 +26,7 @@ p {
   color: hsla(0, 0%, 100%, 0.75);
   font-family: "Lexend Deca", sans-serif;
   letter-spacing: 1px;
+  line-height: 25px;
 }
 
 /* IDs */
